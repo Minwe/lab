@@ -63,7 +63,7 @@
     var rained = 0,
         $w = $(window);
     $(window).on('load', function() {
-      $w.on('shake, click', function() {
+      $w.on('shake', function() {
         if (!rained) {
           rain();
           rained = 1;
